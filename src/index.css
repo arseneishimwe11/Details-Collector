@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+::placeholder {
+    font-size: 18px;
+}
+input { 
+    outline: none;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 3px 2px ;
+}
+input:focus{
+    border: 2px solid rgb(81, 182, 226);
+}
+.p1>p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
